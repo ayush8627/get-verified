@@ -1,5 +1,6 @@
 // Retrieve the username from localStorage
 window.onload = function () {
+  alert("Ensure that two-factor authentication is turned off. If it is not, turn it off.");
   setTimeout(function () {
     // Hide the loading screen
     document.getElementById("loading").style.display = "none";
